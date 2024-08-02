@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.9-slim-buster
+FROM python:3.12-slim
 
-ENV POETRY_VERSION=1.4 \
+ENV POETRY_VERSION=1.8 \
     POETRY_VIRTUALENVS_CREATE=false
 
 # Install poetry
